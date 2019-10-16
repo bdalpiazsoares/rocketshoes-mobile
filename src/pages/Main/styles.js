@@ -2,22 +2,22 @@ import styled from 'styled-components/native';
 import { darken } from 'polished';
 import colors from '../../styles/colors';
 
-export const ProductList = styled.View``;
-
 export const Container = styled.View`
-  top: 150px;
   background: ${colors.dark};
 `;
 
 export const Product = styled.View`
   background: #fff;
   padding: 10px;
-  margin: 18px;
+  margin: 15px;
   border-radius: 4px;
   width: 220px;
 `;
 
-export const ProductImg = styled.Image``;
+export const ProductImg = styled.Image`
+  height: 200px;
+  width: 200px;
+`;
 
 export const ProductTitle = styled.Text`
   font-size: 16px;

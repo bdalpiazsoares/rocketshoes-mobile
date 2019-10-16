@@ -3,16 +3,16 @@ import colors from '../../styles/colors';
 import logo from '../../assets/images/Logo.png';
 
 export const Wrapper = styled.SafeAreaView`
-  flex: 0;
-  flex-direction: row;
+  flex: 0.2;
   background: ${colors.dark};
+  flex-direction: row;
 `;
 
 export const Container = styled.View`
   flex-direction: row;
   flex: 1;
-  padding: 20px;
   justify-content: space-between;
+  padding: 20px;
 `;
 
 export const Logo = styled.Image.attrs({
